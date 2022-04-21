@@ -1,0 +1,2 @@
+dev:
+	parcel index.html

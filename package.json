@@ -4,6 +4,9 @@
     "@parcel/transformer-sass": "2.4.1"
   },
   "dependencies": {
+    "@ashthornton/asscroll": "^2.0.6",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.10.4",
     "three": "^0.139.2"
   }
 }

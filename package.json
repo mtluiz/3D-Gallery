@@ -1,12 +1,17 @@
 {
+  "scripts": {
+    "build": "parcel build --public-url . index.html"
+  },
   "devDependencies": {
     "@parcel/transformer-glsl": "^2.4.1",
     "@parcel/transformer-sass": "2.4.1"
   },
   "dependencies": {
     "@ashthornton/asscroll": "^2.0.6",
+    "@parcel/optimizer-terser": "^2.5.0",
     "dat.gui": "^0.7.9",
     "gsap": "^3.10.4",
+    "parcel-bundler": "^1.12.5",
     "three": "^0.139.2"
   }
 }

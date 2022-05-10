@@ -1,6 +1,6 @@
 import Screen from "./screen";
 import './scss/style.scss'
-import ASScroll from "@ashthornton/asscroll";
+import 'regenerator-runtime/runtime'
 
 new Screen({domElement: document.querySelector('#container'), debug: false})
 
